@@ -16,6 +16,7 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
+    background-color: gray;
 }
 
 nav a{
@@ -63,6 +64,50 @@ section p{
     line-height: 25px    ;
 }
 
+.best-selling{
+    padding-top: 30px;
+}
+.best-selling h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.books-group{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.books{
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.books img{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    /* filter: opacity(0.9); */
+}
+.books-group h6{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.books button{
+    background: black;
+    color: rgb(255, 255, 255);
+    width: 10vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+
 @media( max-width: 420px){
     .logo{
         margin-top: 0px;
@@ -92,6 +137,18 @@ section p{
         max-width: 400px;
     }
     .home h2{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .hero{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .hero h3{
+        font-size: medium;
+        font-weight: 900;
+    }
+    .hero p{
+        font-size: small;
+        padding: 10px;
     }
 }
